@@ -1,52 +1,37 @@
 import type { Site } from "@/types/content";
 
-/**
- * Profile, positioning, public contact, and SEO defaults.
- * The phone number below is approved for public display in the Contact section ONLY
- * (not hero, nav, footer, metadata, or structured data). See CLAUDE.md §2 rule 8.
- */
 export const site: Site = {
   name: {
-    full: "Bhanudeepak Nagumothu",
-    short: "Bhanu",
-    // Proposed monogram; confirm at the design phase.
-    monogram: "BN",
+    full: "Kerolos Gerges Shafeq",
+    short: "Kerolos",
+    monogram: "KS",
   },
 
-  // Approved hero positioning, verbatim. Do not strengthen or rephrase.
   positioning:
-    "Data Engineer building reliable cloud data platforms, pipelines, and automation that turn operational data into trusted systems.",
+    "Junior Data Engineer building reliable data pipelines, automated ETL/ELT workflows, and optimized relational database architectures.",
 
-  location: "Cleveland, OH",
+  location: "Asyut, Egypt",
 
   contact: {
-    // Confirmed by Bhanu (Phase 1.5) as the public professional email.
-    email: "bittugsr@gmail.com",
-    // Taken verbatim from the approved resume. Bhanu approved public display in Contact.
-    // `tel` is the same number in dialable form (US/Canada country code +1).
-    phone: { display: "360-464-5093", tel: "+13604645093" },
+    email: "kero12k345@gmail.com",
   },
 
   seo: {
-    title: "Bhanudeepak Nagumothu | Data Engineer",
+    title: "Kerolos Gerges Shafeq | Junior Data Engineer",
     description:
-      "Bhanudeepak Nagumothu, Data Engineer building reliable cloud data platforms, pipelines, and automation that turn operational data into trusted systems.",
-    // The Vercel production domain (the original project alias now redirects here; not a
-    // custom domain — none is configured yet). Change this one value if a custom
-    // domain is added later; every canonical/OG/JSON-LD/robots/sitemap URL follows it.
-    url: "https://bhanu-n.vercel.app",
+      "Kerolos Gerges Shafeq, Junior Data Engineer specializing in Python, SQL, ETL pipelines, and database optimization.",
+    url: "https://kerolos-shafik.vercel.app",
   },
 
-  // This portfolio's own public repository (confirmed by Bhanu after the Phase 11 publish).
   sourceRepository: {
     label: "Portfolio Source",
     description: "Next.js · TypeScript · Tailwind CSS",
-    url: "https://github.com/bhanu-devv/bhanu-data-engineering-portfolio",
+    url: "https://github.com/kero12k345-star/bhanu-data-engineering-portfolio",
   },
 
   portrait: {
-    src: "/images/profile/bhanu-portrait.png",
-    alt: "Illustrated portrait of Bhanudeepak Nagumothu",
+    src: "/images/profile/kerolos-portrait.png",
+    alt: "Portrait of Kerolos Gerges Shafeq",
     width: 400,
     height: 400,
   },

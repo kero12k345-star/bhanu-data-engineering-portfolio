@@ -1,47 +1,38 @@
-import { needsInput } from "@/lib/needs-input";
 import type { Site } from "@/types/content";
 
-/**
- * EXAMPLE CONTENT — entirely fictional. This mirrors the shape of the real
- * content/site.ts so a fork can see the pattern before writing their own (PLANNING.md
- * §12). "Jordan Rivera" is not a real person; replace every field with your own facts.
- */
 export const site: Site = {
   name: {
-    full: "Jordan A. Rivera",
-    short: "Jordan",
-    monogram: "JR",
+    full: "Kerolos Gerges Shafeq",
+    short: "Kerolos",
+    monogram: "KS",
   },
 
-  // Your own positioning statement, written from your own resume — kept short and honest.
   positioning:
-    "Data Engineer designing resilient cloud pipelines and automation that turn scattered operational data into dependable, well-governed systems.",
+    "Junior Data Engineer building reliable data pipelines, automated ETL/ELT workflows, and optimized relational database architectures.",
 
-  location: "Austin, TX",
+  location: "Asyut",
 
   contact: {
-    // example.com is the domain IANA reserves for documentation and examples — safe to
-    // use here. Replace with your own address.
-    email: "jordan.rivera@example.com",
-    // 555-01XX is the range NANPA reserves for fictional use in the US and Canada.
-    phone: { display: "206-555-0142", tel: "+12065550142" },
+    email: "kero12k345@gmail.com",
+    phone: { display: "+20 112 813 3481", tel: "+201128133481" },
   },
 
   seo: {
-    title: "Jordan A. Rivera | Data Engineer",
+    title: "Kerolos Gerges Shafeq | Junior Data Engineer",
     description:
-      "Jordan A. Rivera, Data Engineer designing resilient cloud pipelines and automation that turn scattered operational data into dependable, well-governed systems.",
-    // Left unresolved on purpose — demonstrates needsInput(): the site builds and
-    // content:check passes with this still open; it just isn't invented.
-    url: needsInput("Canonical site URL (known once a domain is chosen)"),
+      "Kerolos Gerges Shafeq, Junior Data Engineer specializing in Python, SQL, ETL pipelines, and database optimization.",
+    url: "https://kerolos-shafik.vercel.app",
+  },
+
+  sourceRepository: {
+    label: "Portfolio Source",
+    description: "Next.js · TypeScript · Tailwind CSS",
+    url: "https://github.com/kero12k345-star/bhanu-data-engineering-portfolio",
   },
 
   portrait: {
-    // No image ships with the template — add your own under public/images/profile/
-    // and point this at it. The real site treats the source file as read-only and
-    // applies all visual treatment (grayscale, framing) in CSS at render time.
-    src: "/images/profile/example-portrait.png",
-    alt: "Portrait of Jordan A. Rivera",
+    src: "/images/profile/WhatsApp Image 2026-10-02 at 10.04.39 PM.jpeg",
+    alt: "Portrait of Kerolos Gerges Shafeq",
     width: 400,
     height: 400,
   },

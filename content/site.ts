@@ -30,7 +30,7 @@ export const site: Site = {
   },
 
   portrait: {
-    src: "/images/profile/kerolos-portrait.png",
+    src: "/images/profile/profile.jpeg",
     alt: "Portrait of Kerolos Gerges Shafeq",
     width: 400,
     height: 400,
